@@ -31,4 +31,8 @@
                                           otherButtonTitles:@"OK", nil];
     [alert show];
 }
+
+-(void)simpleLog {
+    NSLog(@"SimpleLog");
+}
 @end

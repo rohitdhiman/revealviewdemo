@@ -27,4 +27,9 @@
  */
 -(void)simpleAlert;
 
+/**
+ Method for simple log
+ */
+-(void)simpleLog;
+
 @end
