@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F978F0B71B3F1185000CF244 /* MenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F978F0B61B3F1185000CF244 /* MenuModel.m */; };
 		F9B9EF491B1DE6EF00AFA24F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B9EF481B1DE6EF00AFA24F /* main.m */; };
 		F9B9EF4C1B1DE6EF00AFA24F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9B9EF4B1B1DE6EF00AFA24F /* AppDelegate.m */; };
 		F9B9EF4F1B1DE6EF00AFA24F /* RevailViewDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F9B9EF4D1B1DE6EF00AFA24F /* RevailViewDemo.xcdatamodeld */; };
@@ -33,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F978F0B51B3F1185000CF244 /* MenuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuModel.h; sourceTree = "<group>"; };
+		F978F0B61B3F1185000CF244 /* MenuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuModel.m; sourceTree = "<group>"; };
 		F9B9EF431B1DE6EF00AFA24F /* RevailViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RevailViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9B9EF471B1DE6EF00AFA24F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9B9EF481B1DE6EF00AFA24F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -155,6 +158,8 @@
 			children = (
 				F9B9EF7E1B1E267D00AFA24F /* Cache.h */,
 				F9B9EF7F1B1E267D00AFA24F /* Cache.m */,
+				F978F0B51B3F1185000CF244 /* MenuModel.h */,
+				F978F0B61B3F1185000CF244 /* MenuModel.m */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -265,6 +270,7 @@
 				F9B9EF761B1DE79A00AFA24F /* MenuViewController.m in Sources */,
 				F9B9EF4C1B1DE6EF00AFA24F /* AppDelegate.m in Sources */,
 				F9B9EF491B1DE6EF00AFA24F /* main.m in Sources */,
+				F978F0B71B3F1185000CF244 /* MenuModel.m in Sources */,
 				F9B9EF4F1B1DE6EF00AFA24F /* RevailViewDemo.xcdatamodeld in Sources */,
 				F9B9EF801B1E267D00AFA24F /* Cache.m in Sources */,
 				F9B9EF7B1B1DE7BA00AFA24F /* DetailViewController.m in Sources */,

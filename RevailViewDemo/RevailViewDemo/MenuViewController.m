@@ -45,6 +45,11 @@
 }
 */
 
+#pragma mark
+#pragma mark Button Tap Method
+/**
+ Button tapped method. to load FrontViewController.
+ */
 -(IBAction)buttonTappedOnMenu:(UIButton *)sender {
     DetailViewController *dvc = [[DetailViewController alloc] initWithNibName:@"DetailViewController"
                                                                        bundle:nil];
