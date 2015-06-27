@@ -13,6 +13,11 @@
 @property (nonatomic, strong) NSString *menuId;
 @property (nonatomic, strong) NSString *menuName;
 
+/**
+ Method to init menu model.
+ @param meunuId for menuId
+ @param menuName for menuName
+ */
 - (id)initWithMenuModel : (NSString *)andMenuId
             andMenuName : (NSString *)andMenuName;
 
