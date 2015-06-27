@@ -53,7 +53,7 @@
 }
 
 /**
- Method to load the appropriate view.
+ Method to load the appropriate view on FrontViewController.
  @param viewController, which would be loaded.
  */
 - (void) loadViewController : (UIViewController *)viewController {
