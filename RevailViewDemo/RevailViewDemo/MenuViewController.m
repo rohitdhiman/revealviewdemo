@@ -52,6 +52,10 @@
     [self loadViewController:dvc];
 }
 
+/**
+ Method to load the appropriate view on fronViewController.
+ @param viewController, which would be loaded.
+ */
 - (void) loadViewController : (UIViewController *)viewController {
     ZUUIRevealController *revealController = [self.parentViewController isKindOfClass:[ZUUIRevealController class]] ?
     (ZUUIRevealController *)self.parentViewController : nil;
