@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface MenuModel : NSObject
 
@@ -24,6 +25,6 @@
 /**
  Method for simple log
  */
--(void)simpleTestLog;
+-(void)simpleAlert;
 
 @end

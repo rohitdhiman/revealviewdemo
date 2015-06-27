@@ -23,7 +23,12 @@
     return self;
 }
 
--(void)simpleTestLog {
-    NSLog(@"simpleLog");
+-(void)simpleAlert {
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Title"
+                                                    message:@"simple alert"
+                                                   delegate:nil
+                                          cancelButtonTitle:@"Cancel"
+                                          otherButtonTitles:@"OK", nil];
+    [alert show];
 }
 @end
