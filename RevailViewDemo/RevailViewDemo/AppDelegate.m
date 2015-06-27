@@ -22,9 +22,12 @@
     // Override point for customization after application launch.
     [[UIApplication sharedApplication] setStatusBarHidden:YES];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    //RearViewController
     MenuViewController *mvc = [[MenuViewController alloc] initWithNibName:@"MenuViewController"
                                                                    bundle:nil];
     
+    //FrontViewController
     DetailViewController *dvc = [[DetailViewController alloc] initWithNibName:@"DetailViewController"
                                                                        bundle:nil];
     
