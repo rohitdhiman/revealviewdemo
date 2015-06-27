@@ -21,4 +21,9 @@
 - (id)initWithMenuModel : (NSString *)andMenuId
             andMenuName : (NSString *)andMenuName;
 
+/**
+ Method for simple log
+ */
+-(void)simpleTestLog;
+
 @end
