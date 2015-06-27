@@ -35,4 +35,8 @@
 -(void)simpleLog {
     NSLog(@"SimpleLog");
 }
+
+-(void)simpleLogWithInput : (NSString *)logMessage {
+    NSLog(@"logMessage : %@",logMessage);
+}
 @end

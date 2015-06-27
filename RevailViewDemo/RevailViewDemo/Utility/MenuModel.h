@@ -32,4 +32,10 @@
  */
 -(void)simpleLog;
 
+/**
+ Method for simple log parameter based
+ @param logMessage for consol log parameter
+ */
+-(void)simpleLogWithInput : (NSString *)logMessage;
+
 @end
