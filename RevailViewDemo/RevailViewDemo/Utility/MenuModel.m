@@ -9,5 +9,18 @@
 #import "MenuModel.h"
 
 @implementation MenuModel
+@synthesize menuId;
+@synthesize menuName;
+
+- (id)initWithMenuModel : (NSString *)andMenuId
+            andMenuName : (NSString *)andMenuName {
+
+    self = [super init];
+    if(self) {
+        self.menuId = menuId;
+        self.menuName = menuName;
+    }
+    return self;
+}
 
 @end

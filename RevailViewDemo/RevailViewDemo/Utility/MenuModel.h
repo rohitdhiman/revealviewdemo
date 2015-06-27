@@ -10,4 +10,10 @@
 
 @interface MenuModel : NSObject
 
+@property (nonatomic, strong) NSString *menuId;
+@property (nonatomic, strong) NSString *menuName;
+
+- (id)initWithMenuModel : (NSString *)andMenuId
+            andMenuName : (NSString *)andMenuName;
+
 @end
