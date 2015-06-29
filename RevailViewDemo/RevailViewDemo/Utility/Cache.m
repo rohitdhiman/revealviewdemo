@@ -21,4 +21,15 @@ static Cache *objCache = nil;
     }
     return objCache;
 }
+
++(NSArray *) seperateStringBySeperator : (NSString *)paramString
+                          andSeparator : (NSString *)paramSeparator {
+    NSArray *sepratedStringArray = nil;
+    if ([paramSeparator isEqualToString:@" ,"]) {
+        sepratedStringArray = [paramString componentsSeparatedByCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@" ,"]];
+        sepratedStringArray = [sepratedStringArray filteredArrayUsingPredicate:[NSPredicate predicateWithFormat:@"SELF!= ''"]];
+    }
+    return sepratedStringArray;
+}
+
 @end

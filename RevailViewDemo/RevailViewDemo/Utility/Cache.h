@@ -15,4 +15,13 @@
 
 + (Cache *) cache;
 
+
+/**
+ Method to separate string based on comma and space
+ @param paramString string to separate
+ @param paramSeparator string seprator identifer
+ */
++(NSArray *) seperateStringBySeperator : (NSString *)paramString
+                          andSeparator : (NSString *)paramSeparator;
+
 @end
