@@ -33,4 +33,8 @@
 
 - (void) cehckLog;
 
+/**
+ Push - 2
+  */
+-(void) showLog;
 @end

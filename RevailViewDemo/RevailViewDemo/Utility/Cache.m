@@ -35,4 +35,8 @@ static Cache *objCache = nil;
 - (void) cehckLog {
     NSLog(@"1st log=-Push");
 }
+
+-(void) showLog{
+    NSLog(@"2nd Log");
+}
 @end
