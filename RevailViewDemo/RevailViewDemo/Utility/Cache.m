@@ -32,4 +32,7 @@ static Cache *objCache = nil;
     return sepratedStringArray;
 }
 
+- (void) cehckLog {
+    NSLog(@"1st log=-Push");
+}
 @end

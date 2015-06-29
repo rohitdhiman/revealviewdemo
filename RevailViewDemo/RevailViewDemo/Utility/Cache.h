@@ -27,4 +27,10 @@
 +(NSArray *) seperateStringBySeperator : (NSString *)paramString
                           andSeparator : (NSString *)paramSeparator;
 
+/**
+ Push - 1
+ */
+
+- (void) cehckLog;
+
 @end
