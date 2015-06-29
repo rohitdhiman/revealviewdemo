@@ -36,6 +36,9 @@ static Cache *objCache = nil;
     NSLog(@"1st log=-Push");
 }
 
+/**
+ Log method
+ */
 -(void) showLog{
     NSLog(@"2nd Log");
 }
