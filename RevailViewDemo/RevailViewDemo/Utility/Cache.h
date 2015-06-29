@@ -43,8 +43,10 @@
  */
 - (void) showBasicLog;
 
-//hide and show
+//method to hide
 - (void) hideDel;
+
+//method to show
 - (void) showDel;
 
 @end
