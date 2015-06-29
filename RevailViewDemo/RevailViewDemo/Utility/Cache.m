@@ -42,4 +42,9 @@ static Cache *objCache = nil;
 -(void) showLog{
     NSLog(@"2nd Log");
 }
+
+//Comment from tempCode branch
+- (void) showBasicLog {
+    NSLog(@"showBasicLog");
+}
 @end

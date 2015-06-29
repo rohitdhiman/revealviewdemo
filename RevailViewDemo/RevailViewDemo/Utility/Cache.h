@@ -37,4 +37,9 @@
  Push - 2
   */
 -(void) showLog;
+
+/**
+ BASIC - LOG
+ */
+- (void) showBasicLog;
 @end
