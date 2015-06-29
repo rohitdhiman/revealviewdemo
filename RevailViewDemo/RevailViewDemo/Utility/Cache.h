@@ -42,4 +42,9 @@
  BASIC - LOG
  */
 - (void) showBasicLog;
+
+//hide and show
+- (void) hideDel;
+- (void) showDel;
+
 @end
