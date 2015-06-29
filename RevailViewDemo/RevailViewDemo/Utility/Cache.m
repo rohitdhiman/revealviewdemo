@@ -48,11 +48,12 @@ static Cache *objCache = nil;
     NSLog(@"showBasicLog");
 }
 
-//another log
+//show log
 - (void) showDel{
     NSLog(@"show log");
 }
 
+//hide log
 - (void) hideDel{
     NSLog(@"hide log");
 }
