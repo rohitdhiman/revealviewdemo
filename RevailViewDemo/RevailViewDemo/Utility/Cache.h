@@ -13,6 +13,9 @@
 
 @property (nonatomic, strong) UIView *touchIntercepterView;
 
+/**
+ Designated Initilizer.
+ */
 + (Cache *) cache;
 
 
