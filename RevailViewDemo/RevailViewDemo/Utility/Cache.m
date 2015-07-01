@@ -58,4 +58,9 @@ static Cache *objCache = nil;
     NSLog(@"hide log");
 }
 
+////====TempCode branch modification==//
+- (void) showHello {
+    NSLog(@"ShowHello");
+}
+
 @end
