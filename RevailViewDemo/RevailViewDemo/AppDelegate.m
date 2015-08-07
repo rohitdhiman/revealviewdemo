@@ -11,7 +11,10 @@
 #import "DetailViewController.h"
 #import "ZUUIRevealController.h"
 
+
 @interface AppDelegate ()
+
+- (void) testVerify;
 
 @end
 
