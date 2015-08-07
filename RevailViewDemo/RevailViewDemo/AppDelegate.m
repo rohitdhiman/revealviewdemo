@@ -14,7 +14,6 @@
 
 @interface AppDelegate ()
 
-- (void) testVerify;
 
 @end
 
